@@ -1,8 +1,12 @@
+import Image from 'next/image'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>page</div>
+    <div>
+        this page for learing image optimization .
+        <Image />
+    </div>
   )
 }
 
