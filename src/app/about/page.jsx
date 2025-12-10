@@ -4,8 +4,8 @@ import React from 'react'
 const page = () => {
   return (
     <div>
-        this page for learing image optimization .
-        <Image />
+       <h1 className='text-2xl mb-4 text-center'>  this page for learing image optimization . </h1>
+        <Image  src={"/vercel.svg"}  alt='vercel image' width={200} height={400} />
     </div>
   )
 }

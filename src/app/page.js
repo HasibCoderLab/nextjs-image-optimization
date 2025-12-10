@@ -11,7 +11,8 @@ const page = () => {
         <Link href={"/"}> <li> Home </li> </Link>
         <Link href={"/about"}> <li> Home </li> </Link>
       </ul>
-<button  onClick={ () => router.push("/about")} className='bg-red-600 p-4 rounded-2xl' > Go to ABOUT  </button>
+<button  onClick={ () => router.push("/about")} className='bg-red-600 p-4 rounded-2xl' > 
+  Go to ABOUT and see image  </button>
     </div>
   )
 }
